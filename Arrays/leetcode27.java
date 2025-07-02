@@ -1,6 +1,7 @@
 package DSA.Arrays;
 
 //27.  Remove element 
+// leetcode link - https://leetcode.com/problems/remove-element/
 
 public class leetcode27 {
     public int removeElement(int[] nums, int val) {

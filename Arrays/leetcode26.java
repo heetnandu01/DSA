@@ -1,6 +1,7 @@
 package DSA.Arrays;
 
 // 26.Remove Duplicates from Sorted Array
+// https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
 public class leetcode26 {
    public int removeDuplicates(int[] nums) {
