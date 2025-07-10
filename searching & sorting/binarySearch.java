@@ -1,3 +1,11 @@
+/*
+Complexities of Binary Search (on sorted array)
+
+Worst  : O(log n)   (Element is at the end or not present).
+Average: O(log n)   (Element is somewhere in the middle).
+Best   : O(1)       (Element is exactly at the middle on first check).
+*/
+
 public class binarySearch {
     public static int binarySearch(int[] arr, int target) {
         int low = 0, high = arr.length - 1;
