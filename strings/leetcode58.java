@@ -4,16 +4,16 @@ package DSA.strings;
 //leetcode link:https://leetcode.com/problems/length-of-last-word/description/
 
 public class leetcode58 {
-     public int lengthOfLastWord(String s) {
-        s= s.trim();
-        int count = 0;
-        for(int i = s.length() -1;i >= 0;i--){
-            if(s.charAt(i) != ' '){
-                count ++;
-            }else if(count > 0){
-                break;
-            }
+      public int lengthOfLastWord(String s) {
+        int count=0;
+        int i = s.length()-1;
+          while(s.charAt(i)==' '){
+            i--;
         }
-        return count;
+          while(i>=0 && s.charAt(i)!=' '){
+            count++;
+            i--;
+        }
+       return count; 
     }
 }
